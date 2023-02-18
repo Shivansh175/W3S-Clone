@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.top_nav a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize; 
+    font-weight: bold;
+    display: block;
+}
+.left a{
+    padding-left: 12px;
+    padding-right: 16px;
+    padding-top: 26px;
+    padding-bottom: 33px;
+    color: #282A35; 
+}
+.top_nav ul,.sec_nav ul{
+    margin: 0;
+    padding: 0;
+}
+.top_nav.left {
+    width: 100%;
+    float: left;
+    display: inline;
+}
+.left a:hover{
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+.left a:active{
+    background-color:#282A35;
+}
+.right a{
+    margin: 15px 11px 15px 11px !important;
+    padding: 14px 14px 15px 14px;
+    border-radius: 25px;
+}
+#pro{
+    background-color: #282A35; color: white; 
+}
+#pro:hover{ background-color: gray;}
+#get:hover{ background-color:rgb(252, 161, 176);}
+#free:hover{ background-color:#faea70;}
+#login:hover{
+    background-color:rgb(2, 147, 94) ;
+}
+#icon{ padding: 15px; color: rgb(4, 170, 109);
+    font-size: 40px;
+ }
+#icon:hover{
+    color: rgb(2, 147, 94);
+    background-color: white;
+}
+#get{background-color: #FFC0C7; color: black;}
+#free{width: 150px; text-align: center;background-color:#FFF4A3; color: black;}
+#login{width: 130px ; text-align: center; background-color: rgb(4, 170, 109); color: white;}
+.left{
+    float: left;
+}
+.sec_nav a{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    padding-right: 14px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    background-color: #282A35;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.sec_nav a:hover{
+    background-color: black;
+}
+.sec_nav a:active{
+    box-shadow: inset -3px 1px 5px black;
+    background-color: rgb(4, 170, 109);
+}
+.sec_nav li {
+    display: inline;
+    float: left;    
+}
+#right2{
+    float: right;
+    text-align: center;
+    padding-right: 25px;
+}
+#special:active{
+    background-color: black;
+}
+.top_nav ul{
+    list-style-type: none;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+.sec_nav ul{
+    z-index: 1;
+    width: 100%;
+    float: left;
+    position: fixed;
+    top: 76px;
+    overflow: hidden;
+    background-color: #282A35;
+}
+.right{
+    float: right;
+    display: inline;
+}
+.sidebar a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 15px; 
+}
+.sidebar li:hover{
+    background-color:  #b2b1b1;
+}
+.sidebar li:active{
+    background-color:  rgb(4, 170, 109);
+}
+.heading:hover{
+    background-color:#E7E9EB !important;
+}
+.sidebar span{
+    display: block;
+    padding: 18px 0 0 0;
+}
+.sidebar{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    clear: left;
+    height: 625px;
+    width: 230px;
+    position: fixed;
+    top: 118px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    overflow: auto;
+}
+.sidebar li{
+    padding: 2px 2px 3px 20px;
+    display: block;
+    margin: 0;
+    background-color: #E7E9EB;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 21px;
+}
+#message h1{
+    width: 28em;
+    /* position: absolute; */
+    position: relative;
+    top: 8em;
+    left: 9em;
+    font-size: 2.4em;
+    background-color:#282A35;
+    padding: 0.5em;
+    border: 2px solid black;
+    border-radius: 25px;
+    color: white;
+}
+#message h1:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#message h1:active{
+    background-color: rgb(4, 170, 109);
+    border: none;
+}
